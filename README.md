@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 URL Shortener (Frontend-Focused)
 
-## Getting Started
+A **URL Shortener web application** primarily focused on the **frontend**, with basic integration to **MongoDB** for storing and retrieving shortened links.
 
-First, run the development server:
+This project demonstrates how a frontend application can interact with a database to perform real-world operations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Generate short URLs from long links  
+- Store and retrieve data from MongoDB  
+- Redirect to original URL  
+- Simple and clean UI  
+- Real-time frontend ↔ database connection  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+### Frontend
+- React  
+- Tailwind CSS / CSS  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Database
+- MongoDB  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 What This Project Shows
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Connecting frontend to a database  
+- Basic CRUD operations  
+- Handling user input and form submission  
+- Working with asynchronous data  
+- Understanding client–server data flow  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ⚠️ Note
+
+This is a **frontend-centric project** with minimal backend logic.  
+There is **no authentication or advanced backend architecture**.
+
+---
+
+## 🔮 Future Improvements
+
+- Add proper backend API (Express/Node)  
+- Authentication system  
+- Click analytics  
+- Expiry for links  
+- Custom short URLs  
