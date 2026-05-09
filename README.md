@@ -4,7 +4,7 @@ A **URL Shortener web application** primarily focused on the **frontend**, with 
 
 This project demonstrates how a frontend application can interact with a database to perform real-world operations.
 
---- 
+---
 
 ## 🚀 Features
 
